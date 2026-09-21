@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "workshop" {
-  bucket_prefix = "jaz-31-bkt"
+  bucket_prefix = "jeffery-31-bkt"
   tags = {
     Purpose = "github-actions-workshop"
   }
